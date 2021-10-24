@@ -1,2 +1,67 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jean Schleppy */
+
+header {
+    border: 3px solid #886644;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    padding:10px;
+    margin: 10px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    border-top: 1px dashed;
+    padding: 0px;
+}
+
+nav {
+    border: 3px solid #886644;
+    box-shadow: inset 12px 12px 10px #808080;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+main {
+    border: 3px solid #886644;
+    box-shadow: inset 12px 12px 10px #808080;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cover {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cryptogram {
+    width: 100%;
+    text-align: center;
+  }
+
+  figure figcaption {
+    text-align: center;
+}
+
+aside {
+    border: 3px solid #886644;
+    box-shadow: inset 12px 12px 10px #808080;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    border: 3px solid #886644;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    box-shadow: inset 12px 12px 10px #808080;
+    padding: 10px;
+    margin: 10px;
+}
