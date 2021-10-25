@@ -5,33 +5,38 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
     <title>The Practicum: A Test Of Skill</title>
+    <link href= "css/style.css" rel="stylesheet">
 
     <!-- You may not edit below this line. -->
   </head>
 
   <body>
     <header>
-      <h1>Journey to the Center of the Earth</h1>
+      <div class="header-h1">
+        <h1>Journey to the Center of the Earth</h1>
+      </div>
     </header>
 
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">The Bookshelf</a></li>
-        <li><a href="#">New Additions</a></li>
+      <div id="link-wrapper">
+      <ul class="links">
+        <li><a href="#">Home</a></li> ||
+        <li><a href="#">The Bookshelf</a></li> ||
+        <li><a href="#">New Additions</a></li> ||
         <li><a href="#">Contact Us</a></li>
       </ul>
+    </div>
     </nav>
 
     <main>
       <h2>The Book</h2>
-
+      <hr/>
       <img id="cover" src="img/book_cover.jpg" />
 
       <p>
-        Journey to the Center of the Earth (or
+        <span id="first-line">Journey to</span> the Center of the Earth (or
         <span lang="fr">Voyage au centre de la Terre</span> in its original
         French) is an 1864 science fiction novel by Jules Gabriel Verne, and is
         considered an exemplar of the genre of subterranean fiction. The story
@@ -100,10 +105,12 @@
         fiction by the utterly evil and demonic Professor Schultze of The
         Begum's Fortune.
       </p>
+      
 
       <figure id="cryptogram">
         <!-- You may not edit above this line. -->
-
+        <img src= "img\cryptogram.png" alt="mysterious runic cryptogram" class="cryptogram"/>
+      <figcaption>The mysterious runic cryptogram.</figcaption>
         <!-- You may not edit below this line. -->
       </figure>
 
@@ -123,7 +130,7 @@
 
     <aside>
       <h2>Book Reviews:</h2>
-
+      <hr/>
       <div class="submission">
         <div class="opinion">"It simply rocks! Magnificent! Astounding!"</div>
         <div class="signature">-So and so</div>
