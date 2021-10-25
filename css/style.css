@@ -149,3 +149,22 @@ footer {
     margin: 10px;
     text-align: center;
 }
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 50pt;
+    }
+}
+
+@media (min-width: 768px) {
+   #first-line {
+       font-size: 20pt;
+   }
+}
+
+@media (min-width: 768px) {
+    .submission {
+        width: 30%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
