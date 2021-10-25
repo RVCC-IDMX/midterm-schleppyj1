@@ -168,3 +168,27 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media (min-width: 1024px) {
+   #cover {
+    float: left;   
+    width: 15%;
+   }
+}
+
+@media (min-width:1024px) {
+    .cryptogram {
+        width: 50%;
+        display: grid;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    aside {
+        display: grid;
+        grid-template-columns: 1;
+    }
+}
+
+@media (max-width: 1200px)
