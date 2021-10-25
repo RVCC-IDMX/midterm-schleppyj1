@@ -1,12 +1,30 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jean Schleppy */
 
+body {
+    background-image: linear-gradient(#765729, #000000);
+}
+
 header {
     border: 3px solid #886644;
     border-top-left-radius: 1.5em;
     border-top-right-radius: 1.5em;
+    box-shadow: inset 16px 16px 14px #808080;
     padding:10px;
     margin: 10px;
+}
+
+.header-h1 {
+    background-image: url("/img/cave.jpg");
+    height: 200px;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    text-shadow: 12px 12px 10px #000000;
+    text-align: center;
 }
 
 h2 {
@@ -20,6 +38,7 @@ hr {
 }
 
 nav {
+    background: rgb(255,255,255,0.75);
     border: 3px solid #886644;
     box-shadow: inset 12px 12px 10px #808080;
     padding: 10px;
@@ -27,11 +46,35 @@ nav {
     
 }
 
+.links {
+    list-style: none;
+    text-align: center;
+}
+
+.links > li {
+    display: inline;
+}
+
+#link-wrapper {
+    text-align: center;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A52A2A;
+    text-decoration: underline;
+}
+
 main {
+    background: rgb(255,255,255,0.75);
     border: 3px solid #886644;
     box-shadow: inset 12px 12px 10px #808080;
     padding: 10px;
-    margin: 10px;
+    margin: 10px; 
 }
 
 #cover {
@@ -39,6 +82,26 @@ main {
     width: 60%;
     padding: 10px;
     margin: 10px;
+}
+
+#first-line {
+    font-size: 16pt;
+}
+
+:lang(fr) {
+    font-style: italic;
+}
+
+:lang(is) {
+    font-style: italic;
+}
+
+:lang(it) {
+    font-style: italic;
+}
+
+.character {
+    font-weight: bold;
 }
 
 .cryptogram {
@@ -51,17 +114,38 @@ main {
 }
 
 aside {
+    background: rgb(255,255,255,0.75);
     border: 3px solid #886644;
     box-shadow: inset 12px 12px 10px #808080;
     padding: 10px;
     margin: 10px;
 }
 
+.submission {
+    background: rgb(255,255,255,0.50);
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.opinion {
+    text-align: center;
+    display: inline;
+    font-size: 14pt;
+}
+
+.signature {
+    text-align: right;
+}
+
 footer {
+    background: rgb(255,255,255,0.75);
     border: 3px solid #886644;
     border-bottom-left-radius: 1.5em;
     border-bottom-right-radius: 1.5em;
     box-shadow: inset 12px 12px 10px #808080;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
